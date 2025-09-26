@@ -1,0 +1,50 @@
+/* Estilos base (iguais ao original) */
+body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background-color: #f4f4f4; }
+header { background: #333; color: #fff; padding: 1rem 0; display: flex; justify-content: space-between; align-items: center; padding: 0 5%; }
+.logo-text { font-size: 1.5rem; font-weight: bold; }
+nav a { color: #fff; padding: 0 15px; text-decoration: none; }
+main { padding: 20px 5%; max-width: 800px; margin: auto; }
+.hero { text-align: center; margin-bottom: 40px; }
+.form-section { background: #fff; padding: 30px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; }
+.form-section h2 { margin-bottom: 20px; }
+input[type="text"], input[type="email"] { width: calc(100% - 20px); padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; }
+.decorative-image { width: 150px; margin-top: 20px; }
+
+/* --- INÍCIO DAS CORREÇÕES --- */
+
+/* CORREÇÃO 4: Restaurando o indicador de foco */
+nav a:focus {
+    /* Removemos o 'outline: none;' e adicionamos um indicador visível */
+    outline: 2px solid #005fcc; 
+    outline-offset: 2px;
+}
+
+/* CORREÇÃO 5: Aumentando o contraste */
+.hero-subtitle {
+    color: #555; /* Cor mais escura para contraste adequado */
+}
+
+label { /* Trocamos 'span' por 'label' para refletir o HTML */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Cor mais escura para contraste adequado */
+}
+
+/* Estilo para o botão semântico (similar à div anterior) */
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+/* CORREÇÃO 4.1: Adicionando indicador de foco visível no botão */
+button[type="submit"]:focus {
+    outline: 2px solid #005fcc;
+    outline-offset: 2px;
+}
