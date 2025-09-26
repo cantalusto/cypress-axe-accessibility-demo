@@ -2,7 +2,7 @@
 
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![Axe-Core](https://img.shields.io/badge/Axe--Core-4.8.2-007ACC?style=for-the-badge&logo=accessibility&logoColor=white)
-![WCAG](https://img.shields.io/badge/WCAG-2.1-AA-28A745?style=for-the-badge&logo=w3c&logoColor=white)
+![WCAG](https://img.shields.io/badge/WCAG-2.1_AA-28A745?style=for-the-badge&logo=w3c&logoColor=white)
 ![Accessibility](https://img.shields.io/badge/Accessibility-Inclusive-FF6B35?style=for-the-badge)
 
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
